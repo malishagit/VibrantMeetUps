@@ -26,6 +26,7 @@ li {
 
 a {
   color: #DD4F53;
+   
 }
 
 /**  Header Navigation **/
@@ -37,7 +38,7 @@ header {
 header .jumbotron {
   height: 40vh;
   margin-bottom: 0;
-  background: url(../images/misc/background.jpg) no-repeat 100% 5%;
+  background: url(../images/misc/butterfly1.jpg) no-repeat 100% 5%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,7 +48,8 @@ header .jumbotron {
 /**  Navbar **/
 
 header .navbar {
-  background: #CF5565;
+  background: #FFC107;
+ 
   margin-bottom: 0;
   border-radius: 0;
   font-family: "Roboto", sans-serif;
@@ -112,11 +114,14 @@ header .navbar-inverse .navbar-nav>li>a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   line-height: 160%;
+ 
 }
 
 #speakerList .speakerslist-img {
   margin-right: 20px;
 }
+ 
+
 
 .speakerslist-title {
   font-size: 1.7em;
@@ -124,14 +129,17 @@ header .navbar-inverse .navbar-nav>li>a {
 
 #home .speakerslist-title {
   font-size: 1.5em;
+  color:white;
 }
 
 #speakerDetail .speakerslist-title {
   font-size: 2.4em;
+
 }
 
 #speakerDetail .speakerslist-img {
   margin: 20px 0;
+
 }
 
 .form-control {
@@ -147,7 +155,8 @@ header .navbar-inverse .navbar-nav>li>a {
 
 .jumbotron {
   padding: 20px 0;
-  background-color: #FFEB8B;
+  background-color:#455A64;
+
 }
 
 /**  chat-display **/

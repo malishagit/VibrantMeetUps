@@ -1,6 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
+const app = require('express')();
+app.get('/',(req,res){
+  res.send('Welcome');
+});
+app.listen();
+
 router.get('/', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
