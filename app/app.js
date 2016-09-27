@@ -4,11 +4,7 @@ var app = express();
 var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
-const app = require('express')();
-app.get('/',(req,res){
-  res.send('Welcome');
-});
-app.listen();
+
 
 app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
